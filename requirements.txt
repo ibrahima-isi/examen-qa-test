@@ -1,0 +1,29 @@
+# Requirements pour Lab 1 - Tests API FakeStore
+# Looma Startup - Quality Assurance
+
+# Robot Framework et extensions
+robotframework==7.3.2
+robotframework-requests==0.9.7
+robotframework-jsonlibrary==0.5
+
+# Librairies pour les requêtes HTTP
+requests==2.32.4
+urllib3==2.5.0
+
+# Librairies pour JSON et données
+jsonpath-ng==1.7.0
+jsonschema==4.25.0
+
+# Base de données MongoDB (pour futurs tests)
+pymongo==4.13.2
+dnspython==2.7.0
+
+# Utilitaires
+charset-normalizer==3.4.2
+certifi>=2017.4.17
+idna>=2.5
+
+# Développement et debugging
+robotframework-debuglibrary
+robotframework-pabot  # Pour exécution parallèle
+robotframework-lint   # Pour validation syntaxique
